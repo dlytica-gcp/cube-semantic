@@ -1,0 +1,60 @@
+.card {
+  height: 280px;
+  box-shadow: none !important;
+}
+
+.card :global(.ant-card-body) {
+  padding: 6px 28px;
+}
+
+.consoleTabContent {
+  padding: 2px;
+}
+
+.errorText {
+  padding: 8px;
+  padding: 6px;
+  color: #f00;
+  font-size: 12px;
+  font-family: Sora;
+  white-space: pre-wrap;
+  background: rgba(255, 0, 0, 0.05);
+  border: 1px solid rgba(255, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.closeButton {
+  cursor: pointer;
+}
+
+.tabBtn {
+  position: relative;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  &::after {
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    width: 150%;
+    height: 3px;
+    background: #a31bcb;
+    border-radius: 3px 3px 0 0;
+    transform: translateX(-50%);
+    content: "";
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 12px 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.body {
+  height: 240px;
+  padding: 16px 0;
+  overflow-y: auto;
+}

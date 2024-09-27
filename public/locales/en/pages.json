@@ -1,0 +1,19 @@
+{
+  "roles": "Roles and access",
+  "sources": "Data Sources",
+  "members": "Members",
+  "info": "Personal Info",
+  "sql-api": "SQL API",
+  "alerts": "Alerts",
+  "reports": "Reports",
+  "teams": "Teams",
+  "logs": {
+    "alerts": "Alerts Logs",
+    "reports": "Reports Logs",
+    "query": "Query Logs"
+  },
+  "models": "Models",
+  "explore": "Explore",
+  "settings": "Settings",
+  "signals": "Signals"
+}

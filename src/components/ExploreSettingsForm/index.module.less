@@ -1,0 +1,50 @@
+.input {
+  width: 100%;
+
+  & span {
+    border-right-color: transparent;
+
+    &:hover {
+      border-right-color: #592175;
+    }
+
+    ::after {
+      position: absolute;
+      top: 7px;
+      right: -1px;
+      z-index: 1;
+      display: block;
+      height: 16px;
+      border-left: 0.5px solid rgba(102, 112, 133, 0.3);
+      content: "";
+    }
+  }
+
+  & input {
+    border-left-color: transparent;
+
+    &:hover {
+      border-left-color: #592175;
+    }
+  }
+}
+
+.input .ant-input {
+  height: 34px;
+}
+
+.input :global(.ant-input-group-addon) {
+  font-weight: 700;
+  font-size: 12px;
+  background: white;
+}
+
+.input input::-webkit-outer-spin-button,
+.input input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+.input input[type="number"] {
+  -moz-appearance: textfield;
+}

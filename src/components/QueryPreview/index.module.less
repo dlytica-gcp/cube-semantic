@@ -1,0 +1,68 @@
+.collapse {
+  padding: 0 5px;
+}
+
+.headerWrapperDots {
+  position: relative;
+  &::after {
+    margin-left: 25px;
+    font-size: 25px;
+    opacity: 0.5;
+    content: "...";
+  }
+}
+
+.header {
+  width: 80%;
+  overflow: hidden;
+  color: --var(--color-black) !important;
+}
+
+.collapseInner {
+  margin-left: 28px;
+}
+
+.panel {
+  background: none;
+  border: none !important;
+  opacity: 1 !important;
+}
+
+.tagLabel {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+
+.collapse {
+  overflow: hidden;
+  background: none;
+  border: none;
+
+  * {
+    color: --var(--color-black) !important;
+    cursor: pointer !important;
+  }
+
+  *:not([class*="tag"], [class*="collapseBtn"], [class*="input"]) {
+    padding-left: 0 !important;
+  }
+}
+
+.collapseDisabled {
+  * {
+    color: --var(--color-black) !important;
+    cursor: default !important;
+  }
+}
+
+.collapseBtn {
+  position: relative;
+  top: 8px;
+  text-align: center;
+  border-color: #a5a5a5;
+
+  svg {
+    width: 10px;
+    fill: #a5a5a5;
+  }
+}

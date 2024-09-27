@@ -1,0 +1,63 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  padding: 25px;
+}
+
+.docs {
+  position: relative;
+  // top: -2px;
+
+  color: var(--color-primary);
+
+  background: rgba(71, 13, 105, 0.1);
+  border-color: transparent;
+
+  &:hover {
+    border-color: unset;
+  }
+}
+
+.docsIcon {
+  position: relative;
+  top: 1px;
+}
+
+.dropdownHeader {
+  position: relative;
+  // top: -2px;
+  cursor: pointer;
+}
+
+.team {
+  display: inline-block;
+  color: var(--color-primary);
+
+  font-weight: 600;
+  font-size: 14px;
+  font-family: var(--font-manrope);
+}
+
+.teamContainer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.icon {
+  color: rgba(165, 165, 165, 1);
+  transition: transform 0.2s ease;
+}
+
+.rotate {
+  display: block;
+  transform: rotate(-180deg);
+}
+
+.dropdownItem {
+  max-height: 60px;
+}

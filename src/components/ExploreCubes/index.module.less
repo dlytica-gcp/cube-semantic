@@ -1,0 +1,218 @@
+.root {
+  width: 100%;
+  background: #f9f9f9;
+}
+
+.header {
+  border-bottom: 1px solid var(--color-dimgray-200);
+}
+
+.body {
+  padding: 0 11px;
+}
+
+.collapse {
+  background: transparent;
+}
+
+.panel {
+  width: 100%;
+  margin-bottom: 4px;
+  font-weight: 600;
+  border: 0 !important;
+}
+
+.panel :global(.ant-collapse-header) {
+  align-items: center !important;
+  padding: 2px 4px 2px 6px !important;
+  background: rgba(240, 241, 243, 1);
+  border-radius: 6px !important;
+}
+
+.panel,
+.panelSubSection {
+  :global(.ant-collapse-header .ant-collapse-expand-icon) {
+    margin: 0;
+    margin-right: 8px;
+    padding: 0;
+    padding-inline: 0 !important;
+  }
+}
+
+.panel :global(.ant-collapse-header):hover {
+  background: rgba(237, 231, 240, 0.5);
+}
+
+.collapse :global(.ant-collapse-item-active > .ant-collapse-header) {
+  background: rgba(71, 13, 105, 0.1);
+}
+
+.panel :global(.ant-collapse-item) {
+  border: 0 !important;
+}
+
+.panel :global(.ant-collapse-content-box) {
+  padding: 5px 0 0 !important;
+}
+
+.panel :global(.ant-collapse-extra) {
+  display: flex;
+
+  sup {
+    height: 17px;
+    line-height: 17px;
+  }
+}
+
+.categorySection {
+  background: #f6f6f7;
+}
+
+.categoryTitle {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: dimgray;
+  font-weight: 700;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.memberSection {
+  margin-bottom: 0.3em !important;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.filterControls {
+  padding: 20px !important;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.searchInput {
+  width: 100%;
+  margin-bottom: 16px;
+  padding-left: 0;
+  border-bottom: 1px solid var(--color-dimgray-200);
+  border-radius: 0;
+
+  &:hover {
+    border-bottom: 1px solid var(--color-primary);
+  }
+}
+
+.inputIcon {
+  margin-right: 10px;
+}
+
+.buttonGroup {
+  display: flex !important;
+  height: 40px;
+  margin: 12px;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.05);
+
+  border-radius: 6px;
+
+  span {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+  }
+
+  > label {
+    &::after {
+      position: absolute;
+      top: 5px;
+      right: -1px;
+      display: block;
+      height: 24px;
+      border-left: 0.5px solid rgba(102, 112, 133, 0.3);
+      content: "";
+    }
+  }
+
+  & :global(.ant-radio-button-wrapper-checked),
+  :last-child {
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.buttonGroup :global(.ant-radio-button-wrapper) {
+  flex: 1;
+  height: 32px;
+  font-size: 11px;
+  line-height: 32px;
+  text-align: center;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.buttonGroup :global(.ant-radio-button-wrapper-checked) {
+  background: white;
+
+  &::before {
+    display: none;
+  }
+
+  span {
+    color: #a31bcb !important;
+    font-weight: 700;
+  }
+
+  & > span:nth-child(2) {
+    display: inline-block;
+  }
+}
+
+.buttonGroup :global(.ant-radio-button-wrapper) {
+  &::before {
+    display: none;
+  }
+}
+
+.radioButton {
+  text-transform: capitalize;
+  border: none !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.freeMembers {
+  margin-top: 2px;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wrapper :global(.ant-collapse-header-text) {
+  display: block !important;
+  width: 100% !important;
+}
+
+.optionHeader {
+  width: 90%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.alert div :global(.ant-alert-message) {
+  white-space: normal;
+}
+
+.arrow {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+  text-align: center;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.text {
+  margin-bottom: var(--gap-base);
+}
+
+.btn {
+  padding: 13px 16px;
+  overflow: visible;
+}
+
+.form :global(.ant-form-item) {
+  margin-bottom: 10px;
+}
+
+.input {
+  font-size: 14px;
+  background: white !important;
+  * {
+    background: white !important;
+  }
+}
+
+.inputBefore {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.copy {
+  color: #470d69;
+  cursor: pointer;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.disabledInput {
+  color: var(--color-darkslategray) !important;
+  font-size: 14px;
+  background: rgba(102, 112, 133, 0.1) !important;
+}
+
+.infoBlock {
+  padding: 6px 14px !important;
+}
+
+.label {
+  font-weight: 700 !important;
+  font-size: 14px;
+}
+
+.textAreaWrapper {
+  position: relative;
+}
+
+.textAreaCopy {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
