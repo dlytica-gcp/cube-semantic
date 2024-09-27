@@ -1411,10 +1411,10 @@
   resolved "https://registry.npmjs.org/@emotion/use-insertion-effect-with-fallbacks/-/use-insertion-effect-with-fallbacks-1.0.0.tgz"
   integrity sha512-1eEgUGmkaljiBnRMTdksDV1W4kUnmwgp7X9G8B++9GYwl1lUdqSndSriIrTJ0N7LQaoauY9JJ2yhiOYK5+NI4A==
 
-"@esbuild/win32-x64@0.18.16":
+"@esbuild/linux-x64@0.18.16":
   version "0.18.16"
-  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.18.16.tgz"
-  integrity sha512-sCIVrrtcWN5Ua7jYXNG1xD199IalrbfV2+0k/2Zf2OyV2FtnQnMgdzgpRAbi4AWlKJj1jkX+M+fEGPQj6BQB4w==
+  resolved "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.18.16.tgz"
+  integrity sha512-xu86B3647DihHJHv/wx3NCz2Dg1gjQ8bbf9cVYZzWKY+gsvxYmn/lnVlqDRazObc3UMwoHpUhNYaZset4X8IPA==
 
 "@eslint-community/eslint-utils@^4.1.2", "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
@@ -7829,6 +7829,11 @@ es6-object-assign@^1.1.0:
   resolved "https://registry.npmjs.org/es6-object-assign/-/es6-object-assign-1.1.0.tgz"
   integrity sha512-MEl9uirslVwqQU369iHNWZXsI8yaZYGg/D65aOgZkeyFJwHYSxilf7rQzXKI7DdDuBPrBXbfk3sl9hJhmd5AUw==
 
+esbuild-linux-64@0.14.54:
+  version "0.14.54"
+  resolved "https://registry.npmjs.org/esbuild-linux-64/-/esbuild-linux-64-0.14.54.tgz"
+  integrity sha512-EgjAgH5HwTbtNsTqQOXWApBaPVdDn7XcK+/PtJwZLT1UmpLoznPd8c5CxqsH2dQK3j05YsB3L17T8vE7cp4cCg==
+
 esbuild-plugin-alias@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/esbuild-plugin-alias/-/esbuild-plugin-alias-0.2.1.tgz"
@@ -7840,11 +7845,6 @@ esbuild-register@^3.4.0:
   integrity sha512-kG/XyTDyz6+YDuyfB9ZoSIOOmgyFCH+xPRtsCa8W85HLRV5Csp+o3jWVbOSHgSLfyLc5DmP+KFDNwty4mEjC+Q==
   dependencies:
     debug "^4.3.4"
-
-esbuild-windows-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.14.54.tgz"
-  integrity sha512-AoHTRBUuYwXtZhjXZbA1pGfTo8cJo3vZIcWGLiUcTNgHpJJMC1rVA44ZereBHMJtotyN71S8Qw0npiCIkW96cQ==
 
 esbuild@^0.14.36:
   version "0.14.54"
@@ -15311,12 +15311,7 @@ semver@^5.6.0:
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
-semver@^6.0.0, semver@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
-  integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
-
-semver@^6.3.1:
+semver@^6.0.0, semver@^6.3.0, semver@^6.3.1:
   version "6.3.1"
   resolved "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
