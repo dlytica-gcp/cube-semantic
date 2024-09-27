@@ -18,6 +18,4 @@ stats.html
 
 .eslintcache
 package-lock.json
-dist.zip
-/dist.tar.gz
 public/monaco-editor
