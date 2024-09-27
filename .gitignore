@@ -9,8 +9,6 @@ venv/
 node_modules
 *.log
 
-# Output directory
-dist
 
 # @vitjs/vit temporary directory
 .vit

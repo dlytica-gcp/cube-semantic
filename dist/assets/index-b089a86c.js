@@ -1,0 +1,1 @@
+import{u as t}from"./useLocation-795e9ebc.js";import{S as r}from"./paths-1d44e380.js";import{r as s}from"./react-venders-3a9fd7ec.js";const f=()=>{const[e,o]=t();return s.useEffect(()=>{o(r)},[]),null};export{f as default};
